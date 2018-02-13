@@ -30,6 +30,10 @@ public class Main2Activity extends AppCompatActivity {
         {
             startActivity(new Intent(Main2Activity.this, Postevent.class));
         }
+        else if(item.getItemId()==R.id.action_settings)
+        {
+            startActivity(new Intent(Main2Activity.this, SettingsActivity.class));
+        }
         return super.onOptionsItemSelected(item);
     }
 }
