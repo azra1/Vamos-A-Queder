@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techfreaks.vamosaquedar.Postevent"
+    android:background="@drawable/postevent">
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/input_output"
+        android:cursorVisible="true"
+        android:hint="Event location"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textColorHint="#d3d3d3" />
+
+    <EditText
+        android:id="@+id/eventname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/hosted"
+        android:background="@drawable/input_output"
+        android:cursorVisible="true"
+        android:hint="Event's name"
+        android:padding="15dp"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#d3d3d3" />
+
+    <EditText
+        android:id="@+id/hosted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_output"
+        android:cursorVisible="true"
+        android:hint="Hosted By"
+        android:padding="15dp"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textColorHint="#d3d3d3" />
+
+    <EditText
+        android:id="@+id/brief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_output"
+        android:cursorVisible="true"
+        android:hint="Date of Event"
+        android:padding="15dp"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textColorHint="#d3d3d3"
+        android:focusable="false"
+        android:clickable="true"
+        android:editable="false"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_drawable"
+        android:padding="5dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/eventname"
+        android:layout_below="@+id/eventname"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_output"
+        android:hint="Category"
+        android:padding="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#d3d3d3"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/brief"
+        android:layout_below="@+id/brief"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/input_output"
+        android:hint="Brief Description"
+        android:padding="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#d3d3d3" />
+
+
+
+</RelativeLayout>

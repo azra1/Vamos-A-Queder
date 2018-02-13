@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1074216744493",
+    "firebase_url": "https://vamosaquedar-95fa1.firebaseio.com",
+    "project_id": "vamosaquedar-95fa1",
+    "storage_bucket": "vamosaquedar-95fa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074216744493:android:68aafdcce6692828",
+        "android_client_info": {
+          "package_name": "com.techfreaks.vamosaquedar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074216744493-9ckalnq9b3d93crbkdabmg7ddbr41sfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techfreaks.vamosaquedar",
+            "certificate_hash": "b7d4314c140003c4dde2a7f22ad0830156e59247"
+          }
+        },
+        {
+          "client_id": "1074216744493-kqir5dk8ub5om49hfac8b96voin35m9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5RikAGI1WCEQhBobPteeL9Co9gd13gNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074216744493-kqir5dk8ub5om49hfac8b96voin35m9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
