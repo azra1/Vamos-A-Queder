@@ -37,6 +37,10 @@ public class FetchAddressIntentService extends IntentService {
         Geocoder geocoder = new Geocoder(this, Locale.getDefault());
     }
 
+    public FetchAddressIntentService(String name, ResultReceiver mReceiver) {
+        super(name);
+        this.mReceiver = mReceiver;
+    }
 
     // ...
     private void deliverResultToReceiver(int resultCode, String message) {

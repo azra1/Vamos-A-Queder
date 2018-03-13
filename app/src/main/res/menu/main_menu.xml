@@ -5,8 +5,8 @@
         android:icon="@mipmap/ic_add_white_24dp"
         android:title="Add Event"
         app:showAsAction="always"/>
-    <item android:id="@+id/action_settings"
-        android:title="Settings"
+    <item android:id="@+id/action_logout"
+        android:title="Log Out"
         app:showAsAction="never"/>
 
 </menu>
